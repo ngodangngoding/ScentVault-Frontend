@@ -145,7 +145,7 @@ import Topbar from '@/components/Topbar.vue'
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import api from '../services/api'
-import defaultImg from '@/assets/upload-parfum.JPEG'
+import defaultImg from '@/assets/upload-parfum.jpeg'
 
 const router = useRouter()
 const user = ref(JSON.parse(localStorage.getItem('user') || '{}'))
