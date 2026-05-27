@@ -293,7 +293,7 @@ import { useRoute } from 'vue-router'
 import Topbar from '@/components/Topbar.vue'
 import Sidebar from '@/components/Sidebar.vue'
 import axios from 'axios'
-import defaultImg from '@/assets/upload-parfum.JPEG'
+import defaultImg from '@/assets/upload-parfum.jpeg'
 
 const route = useRoute()
 const perfumeId = route.query.id

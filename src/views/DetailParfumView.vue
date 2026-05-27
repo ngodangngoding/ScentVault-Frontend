@@ -202,7 +202,7 @@ import Sidebar from '@/components/Sidebar.vue'
 import { useRouter, useRoute } from 'vue-router'
 import api from '@/services/api'
 
-import defaultImg from '@/assets/upload-parfum.JPEG'
+import defaultImg from '@/assets/upload-parfum.jpeg'
 
 const router = useRouter()
 const route = useRoute()

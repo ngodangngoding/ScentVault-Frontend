@@ -344,7 +344,7 @@ import { useRouter, useRoute } from 'vue-router'
 import api from '../services/api'
 
 // 1. IMPORT GAMBAR DEFAULT
-import defaultImg from '@/assets/upload-parfum.JPEG'
+import defaultImg from '@/assets/upload-parfum.jpeg'
 
 const router = useRouter()
 const route = useRoute()

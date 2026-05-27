@@ -238,7 +238,7 @@ import Topbar from '@/components/Topbar.vue'
 import Sidebar from '@/components/Sidebar.vue'
 import { RouterLink, useRouter } from 'vue-router'
 import api from '../services/api' // Pastikan path ini sesuai dengan letak file api.js Anda
-import defaultParfumImg from '@/assets/upload-parfum.JPEG'
+import defaultParfumImg from '@/assets/upload-parfum.jpeg'
 
 // Data Filter & Sort
 const categories = ref([{ id: null, name: 'Semua' }])
